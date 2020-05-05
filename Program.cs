@@ -14,30 +14,11 @@ namespace Lab9Refactoring
         static void Main(string[] args)
         {
 
-
-           
-            ////Initial list printed
-            //names = PartyAdd(names);
-            ////User input added to list
-            //names = Yeez(names);
-            ////returned with names not ending in yie
-            //names = RemName(names);
-            ////removes name from user input
-            //sname = String.Join(" ", names);
-            //Console.WriteLine("After removing entered name, remaining names are: " + sname);
-            ////final list
-
-
-
-
-
-
-
             List<deets> peeps = deets.GetListOfMovies();
           
             Console.WriteLine("Welcome to people search engine!");
             int cont = 1;
-            int valid = 0;
+          
             while (cont == 1)
             {
                 deets.ListPeeps(peeps);
@@ -72,13 +53,5 @@ namespace Lab9Refactoring
 
             }
         }
-
     }
-
-
-
-
-
-
-
 }

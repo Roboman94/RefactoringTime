@@ -8,37 +8,28 @@ namespace Deets
     class deets
     {
 
-        //#2
-        //private fields
-        //these start with a lower case letter
         private string name;
         private string hobb;
         private string year;
-      
 
-        //#3
-        //public properties
-        //these start with an uppercase letter - pascal case
-        //bc these are public, these are used to access properties of an object
-        //getters & setters
         public string Name
         {
-            get //when we call this property from an object
+            get 
             {
                 return name;
             }
-            set // when we give property its value
+            set 
             {
                 name = value;
             }
         }
         public string Hobb
         {
-            get //when we call this property from an object
+            get
             {
                 return hobb;
             }
-            set // when we give property its value
+            set 
             {
                 hobb = value;
             }
