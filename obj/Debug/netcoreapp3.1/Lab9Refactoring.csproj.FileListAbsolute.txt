@@ -1,0 +1,13 @@
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.exe
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.deps.json
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.runtimeconfig.json
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.runtimeconfig.dev.json
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.dll
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\bin\Debug\netcoreapp3.1\Lab9Refactoring.pdb
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.csprojAssemblyReference.cache
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.csproj.CoreCompileInputs.cache
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.AssemblyInfoInputs.cache
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.AssemblyInfo.cs
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.dll
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.pdb
+C:\Users\kenda\source\repos\Lab9Refactoring\Lab9Refactoring\obj\Debug\netcoreapp3.1\Lab9Refactoring.genruntimeconfig.cache

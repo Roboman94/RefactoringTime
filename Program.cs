@@ -1,0 +1,84 @@
+﻿using Deets;
+using Microsoft.VisualBasic;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+namespace Lab9Refactoring
+{
+
+    class Program
+    {
+       
+        static void Main(string[] args)
+        {
+
+
+           
+            ////Initial list printed
+            //names = PartyAdd(names);
+            ////User input added to list
+            //names = Yeez(names);
+            ////returned with names not ending in yie
+            //names = RemName(names);
+            ////removes name from user input
+            //sname = String.Join(" ", names);
+            //Console.WriteLine("After removing entered name, remaining names are: " + sname);
+            ////final list
+
+
+
+
+
+
+
+            List<deets> peeps = deets.GetListOfMovies();
+          
+            Console.WriteLine("Welcome to people search engine!");
+            int cont = 1;
+            int valid = 0;
+            while (cont == 1)
+            {
+                deets.ListPeeps(peeps);
+                Console.WriteLine("Would you like to add a student or search for a hobby?");
+                Console.WriteLine("(add) or (hobby)");
+                string entry = Console.ReadLine();
+
+
+                if (entry.Contains("hobby"))
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Contained hobbies are: ");
+                    foreach (deets namez in peeps)
+                    {
+
+                        Console.Write($"{namez.Hobb} ");
+
+                    }
+                    Console.WriteLine();
+                    deets.SearchHobby(peeps);
+
+                }
+
+                else if (entry.Contains("add"))
+                {
+                   deets.PartyAdd(peeps);
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input! Please try again ");
+                }
+
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+}
